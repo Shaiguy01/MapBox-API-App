@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraTargetLat="-29.8393"
+        mapbox:mapbox_cameraTargetLng="30.9252"
+        mapbox:mapbox_cameraZoom="16"
+        >
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="7dp"
+            android:onClick="nearMall"
+            android:background="#3d8ddc"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Modern" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="129dp"
+            android:layout_marginTop="50dp"
+            android:onClick="nearInstitution"
+            android:background="#3d8ddc"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Historical" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="289dp"
+            android:layout_marginTop="50dp"
+            android:onClick="nearhospital"
+            android:background="#3d8ddc"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textSize="18dp"
+            android:text="Popular" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="Near by:" />
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/searchbtn"
+        android:layout_gravity="end"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="10dp"
+        android:tint="@color/white"
+        android:src="@drawable/ic_baseline_search_24"
+
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/traffic_toggle_fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="85dp"
+        android:layout_marginRight="13dp"
+        android:layout_weight="1"
+        android:contentDescription="icon_car_traffic"
+        android:src="@drawable/ic_directions_car_white_24dp"
+        mapbox:fabSize="normal" />
+
+
+
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/s"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="150dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/d"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/distanceView"
+        android:textSize="15dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="310dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="550dp"
+        android:background="#3d8ddc"
+        android:onClick="confirmed"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Start Route"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            app:menu="@menu/bottom_nav_menu" />
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

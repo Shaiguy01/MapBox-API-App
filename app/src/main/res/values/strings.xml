@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Way2Go</string>
+    <string name="access_token">sk.eyJ1Ijoic2hhaGlsMDEiLCJhIjoiY2w2b290aGZwMGNxejNicW9lMDVjdWoycSJ9.rtvQeWsrJXpGNpNA6W3kDQ</string>
+    <string name="menu_language_english">english</string>
+    <string name="menu_language_french">french</string>
+    <string name="log_out">Log Out</string>
+    <string name="about">about</string>
+</resources>

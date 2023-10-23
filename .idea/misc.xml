@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/drawable/custom_edittext.xml" value="0.188" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.188" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/drawable/ic_directions_car_white_24dp.xml" value="0.1585" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_aboutpage.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_favourites.xml" value="0.1" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_register.xml" value="0.1796875" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_settings.xml" value="0.13595553655408293" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_splash.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/Shai/AndroidStudioProjects/MapFinal/app/src/main/res/menu/menu_map_language.xml" value="0.14749893116716545" />
+        <entry key="..\:/Users/onaid/AndroidStudioProjects/MapFinal/app/src/main/res/drawable/marker.xml" value="0.13" />
+        <entry key="..\:/Users/onaid/AndroidStudioProjects/MapFinal/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/onaid/AndroidStudioProjects/MapFinal/app/src/main/res/menu/menu_map_language.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

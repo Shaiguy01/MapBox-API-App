@@ -1,0 +1,33 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven{url "https://maven.google.com"}
+        //maven{url "https://mapbox.bintray.com/mapbox"} //here//
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven {
+            url 'https://api.mapbox.com/downloads/v2/releases/maven'
+            authentication {
+                basic(BasicAuthentication)
+            }
+            credentials{
+                //do not change the username below
+                // this should always be 'mapbox' (not your username)
+                username = 'mapbox'
+                // use the sceret token you stored in gradle.properties as the password
+                password = mapbox_access_token //here//
+            }
+        }
+    }
+}
+rootProject.name = "MapFinal"
+include ':app'
